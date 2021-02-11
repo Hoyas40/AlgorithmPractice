@@ -60,9 +60,9 @@ int solution(vector<vector<string>> clothes)
     return answer;
 }
 
-// int main()
-// {
-//     vector<vector<string>> input{{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
-//     int sol = solution(input);
-//     cout << sol << endl;
-// }
+int main()
+{
+    vector<vector<string>> input{{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
+    int sol = solution(input);
+    cout << sol << endl;
+}
