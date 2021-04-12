@@ -51,9 +51,9 @@ int solution(vector<int> numbers, int target)
     return answer;
 }
 
-int main()
-{
-    vector<int> numbers{0, 0, 1, 1, 1};
-    cout << solution(numbers, 3);   
-    return 0;
-}
+//int main()
+//{
+//    vector<int> numbers{0, 0, 1, 1, 1};
+//    cout << solution(numbers, 3);   
+//    return 0;
+//}

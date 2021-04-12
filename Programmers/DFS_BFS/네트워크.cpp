@@ -34,8 +34,8 @@ int solution(int n, vector<vector<int>> computers)
     return answer;
 }
 
-int main()
-{
-    vector<vector<int>> data{{1, 1, 0}, {1, 1, 1}, {0, 1, 1}};
-    cout << solution( data.size(), data) << endl;
-}
+//int main()
+//{
+//    vector<vector<int>> data{{1, 1, 0}, {1, 1, 1}, {0, 1, 1}};
+//    cout << solution( data.size(), data) << endl;
+//}

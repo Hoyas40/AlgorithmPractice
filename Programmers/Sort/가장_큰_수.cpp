@@ -27,11 +27,10 @@ string solution(vector<int> numbers)
                     });
     
     // 정렬( s1 + s2 > s2 > s1 )
-    std::sort(strings.begin(), strings.end(), []
-        (const auto& s1, const auto& s2)
-        {
-            return s1 + s2 > s2 + s1;
-        });
+    std::sort(strings.begin(), strings.end(), [](const auto& s1, const auto& s2)
+                                            {
+                                                return s1 + s2 > s2 + s1;
+                                            });
 
     for( const auto& i : strings)
         answer += i;
