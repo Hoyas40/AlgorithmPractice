@@ -92,17 +92,17 @@ vector<string> solution(vector<vector<string>> tickets)
 
 
 
-int main()
-{
-	vector<vector<string>> testData = { { "ICN", "SFO" } , { "ATL", "SFO" } , {"ICN", "ATL"}, {"SFO", "ATL"}, {"ATL", "ICN"} };
-
-	solution(testData);
-	
-	
-	for (const auto & airport : sol)
-		cout << airport << ", ";
-
-	cout << '\n';
-	
-	return 0;
-}
+//int main()
+//{
+//	vector<vector<string>> testData = { { "ICN", "SFO" } , { "ATL", "SFO" } , {"ICN", "ATL"}, {"SFO", "ATL"}, {"ATL", "ICN"} };
+//
+//	solution(testData);
+//	
+//	
+//	for (const auto & airport : sol)
+//		cout << airport << ", ";
+//
+//	cout << '\n';
+//	
+//	return 0;
+//}
