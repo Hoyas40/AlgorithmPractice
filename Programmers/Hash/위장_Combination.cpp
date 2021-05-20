@@ -1,3 +1,10 @@
+//	문제 해결
+//	    스파이는 1개 또는 N 개의 의상을 조합할 수 있다.
+//
+//      total number is (x1 + 1) * (x2 + 1) * ... *(Xn + 1) - 1
+//      Plus 1 is to count the case where the type of cloth is not worn.
+//      the term -1 at the end is to remove a case where nothing is worn.
+
 #include <string>
 #include <vector>
 #include <unordered_map>
