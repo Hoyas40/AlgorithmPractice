@@ -44,5 +44,14 @@
     <ClCompile Include="단속카메라.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="단속카메라_good.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="조이스틱.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="큰수만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
