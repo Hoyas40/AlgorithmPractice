@@ -29,25 +29,22 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Hash.cpp">
+    <ClCompile Include="Queue_Stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="베스트앨범.cpp">
+    <ClCompile Include="기능개발_Ho.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="완주하지_못한_선수.cpp">
+    <ClCompile Include="기능개발_good.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="위장_Combination.cpp">
+    <ClCompile Include="다리를지나는트럭.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="위장_백트래킹.cpp">
+    <ClCompile Include="주식가격.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="전화번호_목록.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="전화번호_목록_good.cpp">
+    <ClCompile Include="주식가격_good.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
